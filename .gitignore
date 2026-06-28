@@ -1,0 +1,27 @@
+# === Segredos / credenciais (NUNCA versionar) ===
+# Sessão do Telegram = acesso à conta do usuário
+*.session
+*.session-journal
+scripts/.tg_books.session
+scripts/.tg_books.session-journal
+.env
+.env.*
+
+# === Dados privados do usuário ===
+# Mapa real dos grupos de Telegram (IDs/nomes privados). Use o .example.md como modelo.
+references/telegram-groups.md
+
+# === Conteúdo protegido por direitos autorais (livros baixados) ===
+downloads/
+
+# === Lixo / temporários ===
+__pycache__/
+*.pyc
+*.pyo
+_*.json
+_*.err
+.DS_Store
+Thumbs.db
+
+# Blobs desnecessários
+*.zip
